@@ -23,7 +23,7 @@ const Layout = ({ location, title, children }) => {
           }}
           to={`/`}
         >
-          {title}
+          {title}.<span className="pos-title">dev</span>
         </Link>
       </h1>
     )
@@ -42,7 +42,7 @@ const Layout = ({ location, title, children }) => {
           }}
           to={`/`}
         >
-          {title}
+          {title}.<span className="pos-title">dev</span>
         </Link>
       </h3>
     )
@@ -59,9 +59,9 @@ const Layout = ({ location, title, children }) => {
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
+        {new Date().getFullYear()}, feito com 
         {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <span  role="img" aria-label="Cafe" style={{fontSize:'1.2rem'}}>☕</span>
       </footer>
     </div>
   )

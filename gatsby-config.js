@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `hrozan`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Higor Rozan`,
+      summary: `Engenheiro de Computação e Musico`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Um blog onde posso compartilhar meus aprendizados sobre programação e musica`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `hrozan`,
     },
   },
   plugins: [
@@ -66,7 +66,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `static/favicon.ico`,
       },
     },
     `gatsby-plugin-react-helmet`,
