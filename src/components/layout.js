@@ -11,7 +11,7 @@ const Layout = ({ location, title, children }) => {
     header = (
       <h1
         style={{
-          ...scale(1.5),
+          ...scale(1.2),
           marginBottom: rhythm(1.5),
           marginTop: 0,
         }}
@@ -59,7 +59,7 @@ const Layout = ({ location, title, children }) => {
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-        {new Date().getFullYear()}, feito com 
+        {new Date().getFullYear()}, feito com
         {` `}
         <span  role="img" aria-label="Cafe" style={{fontSize:'1.2rem'}}>☕</span>
       </footer>
