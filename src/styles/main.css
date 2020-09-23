@@ -1,9 +1,10 @@
-a {
-    color: #61afef;
+body {
+    background-color: #23262d;
+    color: white;
 }
 
-h1 {
-    color:  #282c34;
+a {
+    color: #61afef;
 }
 
 .pos-title {
