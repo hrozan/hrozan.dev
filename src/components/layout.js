@@ -13,13 +13,13 @@ const Layout = ({ location, title, children }) => {
         style={{
           ...scale(1.2),
           marginBottom: rhythm(1.5),
-          marginTop: 0,
+          marginTop: 0
         }}
       >
         <Link
           style={{
             boxShadow: `none`,
-            color: `inherit`,
+            color: `inherit`
           }}
           to={`/`}
         >
@@ -29,16 +29,11 @@ const Layout = ({ location, title, children }) => {
     )
   } else {
     header = (
-      <h3
-        style={{
-          fontFamily: `Montserrat, sans-serif`,
-          marginTop: 0,
-        }}
-      >
+      <h3 style={{ marginTop: 0 }}>
         <Link
           style={{
             boxShadow: `none`,
-            color: `inherit`,
+            color: `inherit`
           }}
           to={`/`}
         >
@@ -53,15 +48,16 @@ const Layout = ({ location, title, children }) => {
         marginLeft: `auto`,
         marginRight: `auto`,
         maxWidth: rhythm(24),
-        padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+        padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`
       }}
     >
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-        {new Date().getFullYear()}, feito com
-        {` `}
-        <span  role="img" aria-label="Cafe" style={{fontSize:'1.2rem'}}>☕</span>
+        <p>
+          {new Date().getFullYear()}, feito com  {" "}
+          <span role="img" aria-label="Cafe" style={{ fontSize: "1.2rem" }}>☕</span>
+        </p>
       </footer>
     </div>
   )

@@ -76,6 +76,21 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`
       }
     },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Ubuntu`,
+            variants: [`700`]
+          },
+          {
+            family: `Fira Code`,
+            variants: [`700`]
+          }
+        ]
+      }
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
