@@ -5,8 +5,31 @@ body {
 
 a {
     color: #61afef;
+    text-decoration: none;
+}
+
+code {
+    font-family: "Ubuntu Mono", serif;
 }
 
 .pos-title {
     color: #c678dd;
 }
+
+.bio {
+    display: flex;
+}
+
+.bio p {
+    margin: 0;
+}
+
+.name {
+    color: #98c379;
+}
+
+.post-title {
+    color: #61afef;
+}
+
+
